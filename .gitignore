@@ -1,0 +1,10 @@
+# virtualenv
+myenv/
+
+# Pycache and compile files
+__pycache__/
+*.pyc
+*.pyo
+
+# Cache pytest
+.pytest_cache/
