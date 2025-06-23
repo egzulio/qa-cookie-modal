@@ -5,7 +5,7 @@ The project aims to provide simple automation in the cookie modal and verify tha
 
 ## Structure
 ```bash
-your-project/
+qa-cookie-modal/
 ├── pages/                # folder with Page Object classes
 │   ├── __init__.py       # file initiating module pages
 │   └── cookie_modal.py   # Page Object for cookie modal
