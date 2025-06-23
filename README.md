@@ -30,7 +30,7 @@ conftest.py - Contains fixtures for clearing cookies before each test
 test_cookies.py - Contains test for analytic cookie and verifies that the cookie was added with the appropriate value
 ```
 ```bash
-playwright.yml  - The workflow file configures Playwright tests to run automatically on every push or pull request, across Chromium, Firefox, and WebKit browsers.
+playwright.yml  - The workflow file configures Playwright tests to run automatically on every push or pull request, across Chromium, Firefox, and WebKit browsers. Tests are run in parallel thanks to the matrix strategy.
 ```
 ## Installation
 
