@@ -80,9 +80,15 @@ To repeat tests multiple times (e.g., 5 times):
 
 ```bash
     pytest tests/test_cookies.py --count=5 # Windows
-    python -m pytest tests/cookies_test.py --count=5 #Linux/macOS
+    python -m pytest tests/cookies_test.py --count=5 # Linux/macOS
 ```
 
+To execute tests on multiple browsers at the same time:
+
+```bash
+    python -m pytest --browser webkit --browser firefox --browser chromium --numprocesses 3 tests/cookies_test.py # Windows
+    python -m pytest --browser webkit --browser firefox --browser chromium --numprocesses 3 tests/cookies_test.py # Linux/macOS
+```
 
 
 ## Authors
